@@ -33,10 +33,10 @@ iframe{
 }
 
 #live{
-	width: 800px;
-	height: 450px;
+	width: 40%;
+	height: 50%;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 5%;
 	background-color: black;
 }
 
@@ -88,5 +88,26 @@ iframe{
 		font-size: 14px;
 		margin: 5px;
 		color:lightgray;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	#live{
+		width: 90%;
+		height: 40%;
+	}
+
+	#container{
+		width: 100%;
+	}
+	.content{
+		width: 90%;
+		margin:5%;
+		>img{
+			width:100%;
+		}
+	}
+	.meta{
+		width: 100%;
 	}
 }

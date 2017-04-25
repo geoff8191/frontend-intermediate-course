@@ -38,7 +38,7 @@ iframe{
 .content{
 	display: inline-block;
 	margin: 25px 0px 0px 25px;
-	transition: 0.3s;
+	transition: box-shadow 0.3s,filter 0.3s;
 	&:hover{
 		filter: brightness(150%);
 		box-shadow: 2px 2px 15px 5px #000;

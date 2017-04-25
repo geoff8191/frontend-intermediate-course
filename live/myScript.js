@@ -3,9 +3,9 @@ var video_num = 6;
 $(document).ready(function () {
 	Bone(0,video_num);	
 	Connect(0,video_num);
-
+	
 	document.addEventListener('scroll', function (event) {
-		if($("#bghover").scrollTop()+$(window).height() == document.getElementById('container').clientHeight+550){
+		if(document.getElementById("bghover").scrollHeight - document.getElementById("bghover").scrollTop == document.getElementById("bghover").clientHeight){
 			Bone(video_num,video_num+3);
 			Connect(video_num,video_num+3);
 			video_num += 3;
